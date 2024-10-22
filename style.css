@@ -1,0 +1,203 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Barra de navegación */
+nav {
+    background-color: #111;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Sección de banda */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about {
+    background-color: #e0e0e0;
+}
+
+/* Álbumes populares */
+/* Álbumes populares */
+/* Álbumes populares */
+#albums {
+    background-color: #ddd;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#albums h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+#albums ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#albums li {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column; /* Apilar el contenido verticalmente */
+    align-items: center; /* Alinear los elementos al centro */
+    
+}
+
+#albums li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block; /* Asegurar que la imagen ocupe su espacio */
+    width: 700px; /* Ancho fijo para la imagen */
+    height: 700px; /* Alto fijo para la imagen */
+}
+
+   
+
+
+#albums li strong {
+    margin-top: 10px; /* Espaciado entre la imagen y el texto */
+}
+
+#albums li:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* Próximos conciertos */
+
+#tours {
+    background-color: #222; /* Mismo fondo que el header */
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#tours h2 {
+    font-size: 36px;
+    color: #ffcc00; /* Color dorado para destacar el título */
+    margin-bottom: 40px;
+}
+
+#tours ul {
+    list-style: none;
+    padding: 0;
+}
+
+#tours li {
+    font-size: 24px;
+    margin: 20px 0;
+    transition: color 0.3s;
+}
+
+#tours li:hover {
+    color: #ff0000; /* Rojo del álbum "Clancy" */
+}
+
+
+/* Redes sociales */
+#social {
+    background-color: #222;
+}
+
+#social img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#social ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#social li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+#social li a:hover {
+    color: #ffcc00;
+}
+
+#social h2 {
+   color: #ddd;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
